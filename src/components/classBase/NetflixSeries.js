@@ -1,8 +1,8 @@
 import React, { Component } from "react"
-import DateAndTime from "../DateTime";
 
 class netflixSeries extends Component{
     render(){
+        
         const time = new Date().toLocaleTimeString();
         return <React.Fragment>
             <h3 className="netflix">Top Five Netflix series.</h3>
@@ -13,7 +13,6 @@ class netflixSeries extends Component{
                 <li>Gray</li>
                 <li>Blue</li>
             </ol>
-            <DateAndTime />
             <h4><p>Today's time is {time}</p></h4> <hr/>
             
         </React.Fragment>

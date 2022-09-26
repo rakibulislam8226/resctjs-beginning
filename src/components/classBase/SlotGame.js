@@ -44,11 +44,13 @@ const SlotM = () => {
       <button onClick={IncNum}>Click Me</button>
       <div>
       <hr/>
-      <h1 style={{textAlign:"center"}}>🎰 Slot maching game. 🎰 </h1>
-
+      <div style={{textAlign:"center"}}>
+      <h1>🎰 Slot maching game. 🎰 </h1>
+        
         <SlotGame x = "😄" y = '🥭' z = '🍌'/>
         <SlotGame x = '😒' y = '😄' z = '🍎'/>
         <SlotGame x = "😄" y = '😄' z = '😄'/>
+        </div>
       </div>
     </>
   );

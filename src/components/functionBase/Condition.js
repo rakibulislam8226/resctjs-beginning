@@ -2,9 +2,11 @@ import Sdata from './Sampledata';
 import Props from './Props'
 
 // if else condition again start //
+
 const title='white';
 
 const Condition=()=>{
+  <h2>All the cards are below using condition.</h2>
 if (title==='dark') {
     return <>
       <Props 
